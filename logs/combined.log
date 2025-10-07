@@ -1,0 +1,859 @@
+2025-09-29T08:04:38.094Z [info]: MongoDB connected
+2025-09-29T08:04:38.100Z [info]: Server listening on port 4000
+2025-09-29T08:04:43.878Z [info]: MongoDB connected
+2025-09-29T08:04:43.886Z [info]: Server listening on port 4000
+2025-09-29T08:04:57.456Z [info]: MongoDB connected
+2025-09-29T08:04:57.461Z [info]: Server listening on port 4000
+2025-09-29T08:06:16.429Z [info]: MongoDB connected
+2025-09-29T08:06:16.435Z [info]: Server listening on port 4000
+2025-09-29T08:16:57.255Z [info]: MongoDB connected
+2025-09-29T08:16:57.259Z [info]: Server listening on port 4000
+2025-09-29T08:17:03.094Z [info]: MongoDB connected
+2025-09-29T08:17:03.102Z [info]: Server listening on port 4000
+2025-09-29T08:17:05.320Z [info]: MongoDB connected
+2025-09-29T08:17:05.328Z [info]: Server listening on port 4000
+2025-09-29T08:17:43.310Z [info]: MongoDB connected
+2025-09-29T08:17:43.320Z [info]: Server listening on port 4000
+2025-09-29T10:19:35.484Z [info]: MongoDB connected
+2025-09-29T10:19:35.492Z [info]: Server listening on port 4000
+2025-09-29T10:38:35.596Z [info]: MongoDB connected
+2025-09-29T10:38:35.603Z [info]: Server listening on port 4000
+2025-09-29T10:42:37.859Z [info]: MongoDB connected
+2025-09-29T10:42:37.866Z [info]: Server listening on port 4000
+2025-09-29T10:46:26.111Z [info]: MongoDB connected
+2025-09-29T10:46:26.117Z [info]: Server listening on port 4000
+2025-09-29T10:46:50.353Z [info]: MongoDB connected
+2025-09-29T10:46:50.362Z [info]: Server listening on port 4000
+2025-09-29T10:47:58.697Z [info]: MongoDB connected
+2025-09-29T10:47:58.703Z [info]: Server listening on port 4000
+2025-09-29T10:57:38.325Z [info]: MongoDB connected
+2025-09-29T10:57:38.336Z [info]: Server listening on port 4000
+2025-09-29T10:57:57.618Z [info]: MongoDB connected
+2025-09-29T10:57:57.631Z [info]: Server listening on port 4000
+2025-09-29T10:58:45.120Z [info]: MongoDB connected
+2025-09-29T10:58:45.128Z [info]: Server listening on port 4000
+2025-09-29T10:59:41.272Z [info]: MongoDB connected
+2025-09-29T10:59:41.278Z [info]: Server listening on port 4000
+2025-09-29T11:00:14.278Z [info]: MongoDB connected
+2025-09-29T11:00:14.286Z [info]: Server listening on port 4000
+2025-09-29T11:01:39.251Z [info]: MongoDB connected
+2025-09-29T11:01:39.259Z [info]: Server listening on port 4000
+2025-09-29T11:02:39.983Z [info]: MongoDB connected
+2025-09-29T11:02:39.990Z [info]: Server listening on port 4000
+2025-09-29T11:03:24.682Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:04:01.098Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:04:01.423Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:06:26.750Z [info]: MongoDB connected
+2025-09-29T11:06:26.757Z [info]: Server listening on port 4000
+2025-09-29T11:06:30.483Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:06:30.595Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:06:36.180Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:06:39.635Z [info]: MongoDB connected
+2025-09-29T11:06:39.641Z [info]: Server listening on port 4000
+2025-09-29T11:06:45.812Z [info]: MongoDB connected
+2025-09-29T11:06:45.819Z [info]: Server listening on port 4000
+2025-09-29T11:06:47.756Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:09:19.226Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:77:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:09:37.661Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:77:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:09:40.787Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:11:04.193Z [info]: MongoDB connected
+2025-09-29T11:11:04.203Z [info]: Server listening on port 4000
+2025-09-29T11:11:08.794Z [info]: MongoDB connected
+2025-09-29T11:11:08.798Z [info]: Server listening on port 4000
+2025-09-29T11:11:10.643Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:11:19.178Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:12:13.632Z [info]: MongoDB connected
+2025-09-29T11:12:13.641Z [info]: Server listening on port 4000
+2025-09-29T11:12:16.878Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:13:14.837Z [info]: MongoDB connected
+2025-09-29T11:13:14.846Z [info]: Server listening on port 4000
+2025-09-29T11:16:30.071Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:16:45.101Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:16:55.033Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:16:58.886Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:18:06.694Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:18:14.037Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:19:55.746Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:19:55.749Z [info]: [32mGET[39m
+2025-09-29T11:19:55.750Z [info]: [32mGET[39m
+2025-09-29T11:19:55.770Z [info]: MongoDB connected
+2025-09-29T11:19:55.771Z [info]: Server listening on port 4000
+2025-09-29T11:20:06.222Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:20:06.225Z [info]: [32mGET[39m
+2025-09-29T11:20:06.226Z [info]: [32mGET[39m
+2025-09-29T11:20:06.252Z [info]: MongoDB connected
+2025-09-29T11:20:06.253Z [info]: Server listening on port 4000
+2025-09-29T11:20:10.012Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:20:51.950Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:20:51.956Z [info]: [32mGET[39m
+2025-09-29T11:20:51.957Z [info]: [32mGET[39m
+2025-09-29T11:20:51.985Z [info]: MongoDB connected
+2025-09-29T11:20:51.987Z [info]: Server listening on port 4000
+2025-09-29T11:20:56.129Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:21:09.179Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:21:09.183Z [info]: [32mGET[39m
+2025-09-29T11:21:09.184Z [info]: [32mGET[39m
+2025-09-29T11:21:09.220Z [info]: MongoDB connected
+2025-09-29T11:21:09.222Z [info]: Server listening on port 4000
+2025-09-29T11:21:14.667Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:21:32.624Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:21:32.627Z [info]: [32mGET[39m
+2025-09-29T11:21:32.628Z [info]: [32mGET[39m
+2025-09-29T11:21:32.664Z [info]: MongoDB connected
+2025-09-29T11:21:32.665Z [info]: Server listening on port 4000
+2025-09-29T11:21:58.645Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:21:58.648Z [info]: [32mGET[39m
+2025-09-29T11:21:58.648Z [info]: [32mGET[39m
+2025-09-29T11:21:58.683Z [info]: MongoDB connected
+2025-09-29T11:21:58.686Z [info]: Server listening on port 4000
+2025-09-29T11:22:14.325Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:22:14.328Z [info]: [32mGET[39m
+2025-09-29T11:22:14.329Z [info]: [32mGET[39m
+2025-09-29T11:22:14.363Z [info]: MongoDB connected
+2025-09-29T11:22:14.364Z [info]: Server listening on port 4000
+2025-09-29T11:22:17.300Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:22:41.462Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:22:41.465Z [info]: [32mGET[39m
+2025-09-29T11:22:41.465Z [info]: [32mGET[39m
+2025-09-29T11:22:41.512Z [info]: MongoDB connected
+2025-09-29T11:22:41.513Z [info]: Server listening on port 4000
+2025-09-29T11:22:46.140Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:23:36.665Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:23:36.668Z [info]: [32mGET[39m
+2025-09-29T11:23:36.668Z [info]: [32mGET[39m
+2025-09-29T11:23:36.694Z [info]: MongoDB connected
+2025-09-29T11:23:36.697Z [info]: Server listening on port 4000
+2025-09-29T11:24:08.867Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:24:08.874Z [info]: [32mGET[39m
+2025-09-29T11:24:08.875Z [info]: [32mGET[39m
+2025-09-29T11:24:08.902Z [info]: MongoDB connected
+2025-09-29T11:24:08.904Z [info]: Server listening on port 4000
+2025-09-29T11:24:13.499Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:30:26.633Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:30:26.636Z [info]: [32mGET[39m
+2025-09-29T11:30:26.637Z [info]: [32mGET[39m
+2025-09-29T11:30:26.667Z [info]: MongoDB connected
+2025-09-29T11:30:26.669Z [info]: Server listening on port 4000
+2025-09-29T11:30:32.102Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:31:06.870Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:31:06.873Z [info]: [32mGET[39m
+2025-09-29T11:31:06.874Z [info]: [32mGET[39m
+2025-09-29T11:31:06.899Z [info]: MongoDB connected
+2025-09-29T11:31:06.902Z [info]: Server listening on port 4000
+2025-09-29T11:31:50.923Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:33:51.071Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:33:51.074Z [info]: [32mGET[39m
+2025-09-29T11:33:51.074Z [info]: [32mGET[39m
+2025-09-29T11:33:51.075Z [info]: Server listening on port 4000
+2025-09-29T11:33:55.177Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:34:10.411Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:34:10.418Z [info]: [32mGET[39m
+2025-09-29T11:34:10.419Z [info]: [32mGET[39m
+2025-09-29T11:34:10.419Z [info]: Server listening on port 4000
+2025-09-29T11:35:59.711Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:35:59.714Z [info]: [32mGET[39m
+2025-09-29T11:35:59.714Z [info]: [32mGET[39m
+2025-09-29T11:35:59.715Z [info]: Server listening on port 4000
+2025-09-29T11:36:03.284Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T11:36:03.287Z [info]: [32mGET[39m
+2025-09-29T11:36:03.287Z [info]: [32mGET[39m
+2025-09-29T11:36:03.288Z [info]: Server listening on port 4000
+2025-09-29T11:36:15.749Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:36:25.671Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:36:25.937Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T11:37:46.293Z [info]: Server listening on port 4000
+2025-09-29T11:37:46.337Z [info]: Server listening on port 4000
+2025-09-29T11:37:53.660Z [info]: Server listening on port 4000
+2025-09-29T11:37:53.660Z [info]: Server listening on port 4000
+2025-09-29T11:37:57.677Z [info]: Server listening on port 4000
+2025-09-29T12:08:08.353Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:08:08.358Z [info]: [32mGET[39m
+2025-09-29T12:08:08.359Z [info]: [32mGET[39m
+2025-09-29T12:08:08.360Z [info]: Server listening on port 4000
+2025-09-29T12:08:08.454Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:08:08.459Z [info]: [32mGET[39m
+2025-09-29T12:08:08.462Z [info]: [32mGET[39m
+2025-09-29T12:08:08.463Z [info]: Server listening on port 4000
+2025-09-29T12:08:46.107Z [info]: Server listening on port 4000
+2025-09-29T12:08:46.202Z [info]: Server listening on port 4000
+2025-09-29T12:09:09.765Z [info]: MongoDB connected
+2025-09-29T12:09:09.772Z [info]: Server listening on port 4000
+2025-09-29T12:09:09.812Z [info]: MongoDB connected
+2025-09-29T12:09:09.818Z [info]: Server listening on port 4000
+2025-09-29T12:09:12.620Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T12:09:39.378Z [info]: MongoDB connected
+2025-09-29T12:09:39.382Z [info]: Server listening on port 4000
+2025-09-29T12:09:39.396Z [info]: MongoDB connected
+2025-09-29T12:09:39.400Z [info]: Server listening on port 4000
+2025-09-29T12:09:40.791Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T12:09:57.899Z [info]: MongoDB connected
+2025-09-29T12:09:57.905Z [info]: MongoDB connected
+2025-09-29T12:09:57.906Z [info]: Server listening on port 4000
+2025-09-29T12:09:57.910Z [info]: Server listening on port 4000
+2025-09-29T12:09:59.906Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T12:10:07.917Z [info]: MongoDB connected
+2025-09-29T12:10:07.924Z [info]: Server listening on port 4000
+2025-09-29T12:10:07.933Z [info]: MongoDB connected
+2025-09-29T12:10:07.940Z [info]: Server listening on port 4000
+2025-09-29T12:10:09.155Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T12:10:21.015Z [info]: MongoDB connected
+2025-09-29T12:10:21.021Z [info]: Server listening on port 4000
+2025-09-29T12:10:21.153Z [info]: MongoDB connected
+2025-09-29T12:10:21.177Z [info]: Server listening on port 4000
+2025-09-29T12:10:22.484Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T12:10:32.722Z [info]: MongoDB connected
+2025-09-29T12:10:32.728Z [info]: Server listening on port 4000
+2025-09-29T12:10:32.823Z [info]: MongoDB connected
+2025-09-29T12:10:32.833Z [info]: Server listening on port 4000
+2025-09-29T12:10:34.148Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T12:10:44.509Z [info]: MongoDB connected
+2025-09-29T12:10:44.519Z [info]: Server listening on port 4000
+2025-09-29T12:10:44.534Z [info]: MongoDB connected
+2025-09-29T12:10:44.542Z [info]: Server listening on port 4000
+2025-09-29T12:10:47.324Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T12:10:51.168Z [info]: MongoDB connected
+2025-09-29T12:10:51.182Z [info]: MongoDB connected
+2025-09-29T12:10:51.180Z [info]: Server listening on port 4000
+2025-09-29T12:10:51.188Z [info]: Server listening on port 4000
+2025-09-29T12:10:59.827Z [info]: MongoDB connected
+2025-09-29T12:10:59.837Z [info]: Server listening on port 4000
+2025-09-29T12:10:59.948Z [info]: MongoDB connected
+2025-09-29T12:10:59.955Z [info]: Server listening on port 4000
+2025-09-29T12:11:17.190Z [info]: MongoDB connected
+2025-09-29T12:11:17.201Z [info]: Server listening on port 4000
+2025-09-29T12:11:17.321Z [info]: MongoDB connected
+2025-09-29T12:11:17.335Z [info]: Server listening on port 4000
+2025-09-29T12:11:18.695Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T12:11:29.694Z [info]: MongoDB connected
+2025-09-29T12:11:29.701Z [info]: Server listening on port 4000
+2025-09-29T12:11:29.735Z [info]: MongoDB connected
+2025-09-29T12:11:29.739Z [info]: Server listening on port 4000
+2025-09-29T12:11:30.636Z [error]: TypeError: Cannot set property query of #<IncomingMessage> which has only a getter
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:113:18
+    at Array.forEach (<anonymous>)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/express-mongo-sanitize/index.js:110:44
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:342:13)
+    at /home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:297:9
+    at processParams (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:582:12)
+    at next (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/index.js:291:5)
+    at urlencodedParser (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/body-parser/lib/types/urlencoded.js:68:7)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/tech-Care-backend-server/node_modules/router/lib/layer.js:152:17)
+2025-09-29T12:11:36.771Z [info]: MongoDB connected
+2025-09-29T12:11:36.779Z [info]: Server listening on port 4000
+2025-09-29T12:11:36.872Z [info]: MongoDB connected
+2025-09-29T12:11:36.877Z [info]: Server listening on port 4000
+2025-09-29T12:11:46.786Z [info]: MongoDB connected
+2025-09-29T12:11:46.796Z [info]: Server listening on port 4000
+2025-09-29T12:11:46.833Z [info]: MongoDB connected
+2025-09-29T12:11:46.849Z [info]: Server listening on port 4000
+2025-09-29T12:12:34.617Z [info]: MongoDB connected
+2025-09-29T12:12:34.634Z [info]: MongoDB connected
+2025-09-29T12:12:34.626Z [info]: Server listening on port 4000
+2025-09-29T12:12:34.648Z [info]: Server listening on port 4000
+2025-09-29T12:12:43.839Z [info]: MongoDB connected
+2025-09-29T12:12:43.845Z [info]: Server listening on port 4000
+2025-09-29T12:12:43.876Z [info]: MongoDB connected
+2025-09-29T12:12:43.885Z [info]: Server listening on port 4000
+2025-09-29T12:12:53.986Z [info]: MongoDB connected
+2025-09-29T12:12:53.992Z [info]: Server listening on port 4000
+2025-09-29T12:12:54.044Z [info]: MongoDB connected
+2025-09-29T12:12:54.049Z [info]: Server listening on port 4000
+2025-09-29T12:13:57.204Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:13:57.210Z [info]: [32mGET[39m
+2025-09-29T12:13:57.212Z [info]: [32mGET[39m
+2025-09-29T12:13:57.240Z [info]: MongoDB connected
+2025-09-29T12:13:57.242Z [info]: Server listening on port 4000
+2025-09-29T12:13:57.298Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:13:57.307Z [info]: [32mGET[39m
+2025-09-29T12:13:57.308Z [info]: [32mGET[39m
+2025-09-29T12:13:57.341Z [info]: MongoDB connected
+2025-09-29T12:13:57.345Z [info]: Server listening on port 4000
+2025-09-29T12:14:08.129Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:14:08.171Z [info]: MongoDB connected
+2025-09-29T12:14:08.173Z [info]: Server listening on port 4000
+2025-09-29T12:14:08.285Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:14:08.309Z [info]: MongoDB connected
+2025-09-29T12:14:08.311Z [info]: Server listening on port 4000
+2025-09-29T12:14:21.850Z [info]: MongoDB connected
+2025-09-29T12:14:21.858Z [info]: Server listening on port 4000
+2025-09-29T12:14:22.039Z [info]: MongoDB connected
+2025-09-29T12:14:22.051Z [info]: Server listening on port 4000
+2025-09-29T12:16:04.120Z [info]: MongoDB connected
+2025-09-29T12:16:04.136Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:16:04.264Z [info]: MongoDB connected
+2025-09-29T12:16:04.269Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:16:18.815Z [info]: MongoDB connected
+2025-09-29T12:16:18.825Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:16:18.845Z [info]: MongoDB connected
+2025-09-29T12:16:18.856Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:20:00.967Z [info]: MongoDB connected
+2025-09-29T12:20:00.980Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:20:01.100Z [info]: MongoDB connected
+2025-09-29T12:20:01.104Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:23:00.510Z [info]: MongoDB connected
+2025-09-29T12:23:00.526Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:23:00.567Z [info]: MongoDB connected
+2025-09-29T12:23:00.587Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:23:47.104Z [info]: MongoDB connected
+2025-09-29T12:23:47.112Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:23:47.181Z [info]: MongoDB connected
+2025-09-29T12:23:47.187Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:24:14.732Z [info]: MongoDB connected
+2025-09-29T12:24:14.749Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:24:14.774Z [info]: MongoDB connected
+2025-09-29T12:24:14.789Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:24:59.655Z [info]: MongoDB connected
+2025-09-29T12:24:59.670Z [info]: MongoDB connected
+2025-09-29T12:24:59.666Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:24:59.679Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:25:03.173Z [info]: MongoDB connected
+2025-09-29T12:25:03.182Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:25:03.249Z [info]: MongoDB connected
+2025-09-29T12:25:03.257Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:30:14.098Z [info]: MongoDB connected
+2025-09-29T12:30:14.107Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:30:16.463Z [info]: MongoDB connected
+2025-09-29T12:30:16.475Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:42:16.012Z [info]: MongoDB connected
+2025-09-29T12:42:16.017Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:42:18.642Z [info]: MongoDB connected
+2025-09-29T12:42:18.650Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:49:18.331Z [info]: MongoDB connected
+2025-09-29T12:49:18.337Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:50:38.887Z [info]: MongoDB connected
+2025-09-29T12:50:38.896Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:51:03.610Z [info]: MongoDB connected
+2025-09-29T12:51:03.620Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:52:54.389Z [info]: MongoDB connected
+2025-09-29T12:52:54.393Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:53:08.853Z [info]: MongoDB connected
+2025-09-29T12:53:08.860Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T12:55:36.138Z [info]: MongoDB connected
+2025-09-29T12:55:36.143Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:01:58.312Z [info]: MongoDB connected
+2025-09-29T13:01:58.319Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:04:26.227Z [info]: MongoDB connected
+2025-09-29T13:04:26.232Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:04:53.351Z [info]: MongoDB connected
+2025-09-29T13:04:53.373Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:05:00.436Z [info]: MongoDB connected
+2025-09-29T13:05:00.441Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:05:27.972Z [info]: MongoDB connected
+2025-09-29T13:05:27.987Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:06:21.569Z [info]: MongoDB connected
+2025-09-29T13:06:21.579Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:06:49.106Z [info]: MongoDB connected
+2025-09-29T13:06:49.113Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:08:36.605Z [info]: MongoDB connected
+2025-09-29T13:08:36.614Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:08:43.825Z [info]: MongoDB connected
+2025-09-29T13:08:43.830Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:20:18.728Z [info]: MongoDB connected
+2025-09-29T13:20:18.739Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:25:19.209Z [info]: MongoDB connected
+2025-09-29T13:25:19.214Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:27:07.027Z [info]: MongoDB connected
+2025-09-29T13:27:07.034Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:27:27.692Z [info]: MongoDB connected
+2025-09-29T13:27:27.699Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:28:03.573Z [info]: MongoDB connected
+2025-09-29T13:28:03.583Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:28:35.756Z [info]: MongoDB connected
+2025-09-29T13:28:35.769Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:29:06.356Z [info]: MongoDB connected
+2025-09-29T13:29:06.365Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:29:08.265Z [info]: MongoDB connected
+2025-09-29T13:29:08.272Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:29:31.957Z [info]: MongoDB connected
+2025-09-29T13:29:31.962Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:30:02.994Z [info]: MongoDB connected
+2025-09-29T13:30:03.004Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:30:39.575Z [info]: MongoDB connected
+2025-09-29T13:30:39.584Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:31:47.070Z [info]: MongoDB connected
+2025-09-29T13:31:47.075Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:35:28.362Z [info]: MongoDB connected
+2025-09-29T13:35:28.366Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:35:47.424Z [info]: MongoDB connected
+2025-09-29T13:35:47.429Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:36:06.862Z [info]: MongoDB connected
+2025-09-29T13:36:06.868Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:36:23.368Z [info]: MongoDB connected
+2025-09-29T13:36:23.377Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:36:52.260Z [info]: MongoDB connected
+2025-09-29T13:36:52.266Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:37:03.286Z [info]: MongoDB connected
+2025-09-29T13:37:03.296Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:37:23.522Z [info]: MongoDB connected
+2025-09-29T13:37:23.530Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:38:51.069Z [info]: MongoDB connected
+2025-09-29T13:38:51.073Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:43:27.965Z [info]: MongoDB connected
+2025-09-29T13:43:27.969Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:44:01.861Z [info]: MongoDB connected
+2025-09-29T13:44:01.870Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:46:47.717Z [info]: MongoDB connected
+2025-09-29T13:46:47.724Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:51:17.212Z [info]: MongoDB connected
+2025-09-29T13:51:17.217Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:51:46.883Z [info]: MongoDB connected
+2025-09-29T13:51:46.891Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:56:04.097Z [info]: MongoDB connected
+2025-09-29T13:56:04.109Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:56:07.715Z [info]: MongoDB connected
+2025-09-29T13:56:07.725Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:59:21.151Z [info]: MongoDB connected
+2025-09-29T13:59:21.163Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T13:59:50.638Z [info]: MongoDB connected
+2025-09-29T13:59:50.646Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:01:51.015Z [info]: MongoDB connected
+2025-09-29T14:01:51.020Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:02:56.448Z [info]: MongoDB connected
+2025-09-29T14:02:56.454Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:04:33.334Z [info]: MongoDB connected
+2025-09-29T14:04:33.343Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:06:55.032Z [info]: MongoDB connected
+2025-09-29T14:06:55.038Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:09:18.873Z [info]: MongoDB connected
+2025-09-29T14:09:18.887Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:10:42.368Z [info]: MongoDB connected
+2025-09-29T14:10:42.376Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:11:12.181Z [info]: MongoDB connected
+2025-09-29T14:11:12.188Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:11:57.600Z [info]: MongoDB connected
+2025-09-29T14:11:57.605Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:12:12.308Z [info]: MongoDB connected
+2025-09-29T14:12:12.316Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:12:19.656Z [info]: MongoDB connected
+2025-09-29T14:12:19.664Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:12:53.314Z [info]: MongoDB connected
+2025-09-29T14:12:53.333Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:13:48.056Z [info]: MongoDB connected
+2025-09-29T14:13:48.062Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:13:56.961Z [info]: MongoDB connected
+2025-09-29T14:13:56.967Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:15:48.430Z [info]: MongoDB connected
+2025-09-29T14:15:48.435Z [info]: ✅ Server running on PORT: 4000
+2025-09-29T14:17:27.303Z [info]: MongoDB connected
+2025-09-29T14:17:27.309Z [info]: ✅ Server running on PORT: 4000
+2025-09-30T08:10:10.515Z [info]: MongoDB connected
+2025-09-30T08:10:10.523Z [info]: ✅ Server running on PORT: 4000
+2025-09-30T08:12:16.069Z [info]: MongoDB connected
+2025-09-30T08:12:16.083Z [info]: ✅ Server running on PORT: 4000
+2025-09-30T08:16:25.155Z [info]: MongoDB connected
+2025-09-30T08:16:25.163Z [info]: ✅ Server running on PORT: 4000
+2025-09-30T08:16:39.674Z [info]: MongoDB connected
+2025-09-30T08:16:39.687Z [info]: ✅ Server running on PORT: 4000
+2025-09-30T08:17:43.344Z [info]: MongoDB connected
+2025-09-30T08:17:43.349Z [info]: ✅ Server running on PORT: 4000
+2025-09-30T08:18:20.114Z [info]: MongoDB connected
+2025-09-30T08:18:20.121Z [info]: ✅ Server running on PORT: 4000
+2025-09-30T10:53:44.874Z [info]: MongoDB connected
+2025-09-30T10:53:44.879Z [info]: ✅ Server running on PORT: 4000
+2025-09-30T10:54:16.244Z [info]: MongoDB connected
+2025-09-30T10:54:16.251Z [info]: ✅ Server running on PORT: 4000
+2025-09-30T10:54:46.569Z [info]: MongoDB connected
+2025-09-30T10:54:46.583Z [info]: ✅ Server running on PORT: 4000
+2025-09-30T11:07:50.215Z [info]: MongoDB connected
+2025-09-30T11:07:50.225Z [info]: ✅ Server running on PORT: 4000
+2025-09-30T11:08:10.965Z [info]: MongoDB connected
+2025-09-30T11:08:10.985Z [info]: ✅ Server running on PORT: 4000
+2025-10-01T06:39:46.411Z [info]: MongoDB connected
+2025-10-01T06:39:46.422Z [info]: ✅ Server running on PORT: 4000
+2025-10-06T11:56:33.439Z [info]: MongoDB connected
+2025-10-06T11:56:33.444Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T05:39:14.676Z [info]: MongoDB connected
+2025-10-07T05:39:14.682Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T05:44:07.055Z [info]: MongoDB connected
+2025-10-07T05:44:07.063Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T05:45:06.134Z [info]: MongoDB connected
+2025-10-07T05:45:06.145Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:05:23.384Z [info]: MongoDB connected
+2025-10-07T06:05:23.398Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:05:45.692Z [info]: MongoDB connected
+2025-10-07T06:05:45.700Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:06:47.940Z [info]: MongoDB connected
+2025-10-07T06:06:47.951Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:08:22.984Z [info]: MongoDB connected
+2025-10-07T06:08:22.995Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:13:45.256Z [info]: MongoDB connected
+2025-10-07T06:13:45.263Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:14:13.829Z [info]: MongoDB connected
+2025-10-07T06:14:13.840Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:14:34.245Z [info]: MongoDB connected
+2025-10-07T06:14:34.255Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:20:57.379Z [info]: MongoDB connected
+2025-10-07T06:20:57.392Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:21:09.168Z [info]: MongoDB connected
+2025-10-07T06:21:09.184Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:21:09.980Z [info]: MongoDB connected
+2025-10-07T06:21:09.996Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:22:27.232Z [info]: MongoDB connected
+2025-10-07T06:22:27.243Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:22:27.933Z [info]: MongoDB connected
+2025-10-07T06:22:27.955Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:26:24.625Z [info]: MongoDB connected
+2025-10-07T06:26:24.639Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:27:21.631Z [info]: MongoDB connected
+2025-10-07T06:27:21.646Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:32:08.521Z [info]: MongoDB connected
+2025-10-07T06:32:08.535Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:32:33.918Z [info]: MongoDB connected
+2025-10-07T06:32:33.946Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:34:20.763Z [info]: MongoDB connected
+2025-10-07T06:34:20.777Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:36:03.258Z [info]: MongoDB connected
+2025-10-07T06:36:03.277Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:36:14.132Z [info]: MongoDB connected
+2025-10-07T06:36:14.159Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:38:30.058Z [info]: MongoDB connected
+2025-10-07T06:38:30.073Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:38:36.144Z [info]: MongoDB connected
+2025-10-07T06:38:36.156Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:40:55.003Z [info]: MongoDB connected
+2025-10-07T06:40:55.021Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:41:30.912Z [info]: MongoDB connected
+2025-10-07T06:41:30.937Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:42:52.782Z [info]: MongoDB connected
+2025-10-07T06:42:52.792Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:44:30.608Z [info]: MongoDB connected
+2025-10-07T06:44:30.619Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:47:40.300Z [info]: MongoDB connected
+2025-10-07T06:47:40.325Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T06:49:53.995Z [info]: MongoDB connected
+2025-10-07T06:49:54.003Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T07:03:54.008Z [info]: MongoDB connected
+2025-10-07T07:03:54.013Z [info]: ✅ Server running on PORT: 4000
+2025-10-07T07:35:52.330Z [info]: MongoDB connected
+2025-10-07T07:35:52.338Z [info]: ✅ Server running on PORT: 4000
