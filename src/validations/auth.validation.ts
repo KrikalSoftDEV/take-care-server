@@ -8,3 +8,13 @@ export const registerSchema = Joi.object({
   mobile: Joi.string().pattern(/^[0-9]{10}$/).required(),
 });
 
+export const generateOtpForVerifyMobileSchema = Joi.object({
+  mobile: Joi.string().pattern(/^[0-9]{10}$/).required(),
+});
+
+
+export const loginSchema = Joi.object({
+  mobile: Joi.string().pattern(/^[0-9]{10}$/).required(),
+  otp: Joi.string().length(6).pattern(/^[0-9]{6}$/).required(),
+});
+

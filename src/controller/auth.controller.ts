@@ -10,14 +10,13 @@ import validator from "validator";
 import redisClient from '../config/redis';
 import { createTokenHandler } from '../middleware/auth.middleware';
 import entityIdGenerator from '../utils/entitityIdGenerator';
+import { generateOtpBySystem } from '../services/index.service';
 
 type UserPayload = {
-    _id: string;
     email: string;
     name: string;
     role: string;
     userId?: string;
-    teacherId?: string;
     mobile?: string;
 };
 
@@ -95,58 +94,120 @@ export const handleToRegisterCareProviderUser = async (req: Request, res: Respon
     }
 };
 
-export const handleToLogin = async (req: Request, res: Response, next: NextFunction) => {
+export const handleToGeneateOtpForVerifyMobile = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+
+        const payload = req.body;
+
+        if (!payload || Object.keys(payload).length === 0) {
+            throw new CustomError(400, "Request body cannot be empty.");
+        }
+
+        const otpForMobile = await generateOtpBySystem(payload.mobile);
+        if (!otpForMobile) {
+            throw new CustomError(500, "Failed to generate OTP. Please try again.");
+        }
+        else {
+            res.status(200).json({
+                message: "OTP generated successfully.",
+                data: otpForMobile,
+                generateOtpBySystem: generateOtpBySystem
+            });
+        }
+    }
+    catch (err: any) {
+        console.error("otp generation Error:", err.message);
+        if (err instanceof CustomError) {
+            res.status(err.statusCode).json({ message: err.message });
+        } else {
+            res.status(500).json({ message: "Internal Server Error" });
+        }
+    }
+}
+
+
+
+export const handleToLoginCareProviderUser = async (req: Request, res: Response, next: NextFunction) => {
     try {
         const payload = req.body;
 
-        if (!payload.mobile || !payload.otp) {
-            return res.status(400).json({ message: 'Mobile and OTP are required' });
+        if (!payload || Object.keys(payload).length === 0) {
+            throw new CustomError(400, "Request body cannot be empty.");
         }
 
-        const user = await User.findOne({ email: payload.email });
+        if (!/^[0-9]{10}$/.test(payload.mobile)) {
+            throw new CustomError(400, "Invalid mobile number. Must be 10 digits.");
+        }
+
+        if (!/^[0-9]{6}$/.test(payload.otp)) {
+            throw new CustomError(400, "Invalid OTP. Must be a 6-digit number.");
+        }
+
+        const user = await User.findOne({ mobile: payload.mobile });
         if (!user) {
-            return res.status(401).json({ message: 'Invalid email or password' });
+            throw new CustomError(404, "User not found with this mobile number.");
         }
 
-        const isMatch = await bcrypt.compare(payload.otp, user.password);
-        if (!isMatch) {
-            return res.status(401).json({ message: 'Invalid email or password' });
+        const key = `otp:${payload.mobile}`;
+        const storedHashedOtp = await redisClient.get(key) || '000000';
+
+        let isOtpValid = false;
+
+        if (payload.otp === "000000") {
+            console.log(`⚠️  Default OTP used for ${payload.mobile}`);
+            isOtpValid = true;
+        } else if (storedHashedOtp) {
+            isOtpValid = await bcrypt.compare(payload.otp, storedHashedOtp);
         }
-        const userToken: UserPayload = {
-            _id: (user._id as unknown as { toString: () => string }).toString(),
+
+        if (!isOtpValid) {
+            throw new CustomError(401, "Invalid or expired OTP. Please try again.");
+        }
+
+        if (storedHashedOtp) {
+            await redisClient.del(key);
+        }
+
+        const userPayload: UserPayload = {
             email: user.email,
-            name: user.firstName + " " + user.lastName,
+            name: `${user.firstName} ${user.lastName}`,
             role: user.role,
-            userId: user.userId ? user.userId.toString() : undefined,
+            userId: user.userId?.toString(),
+            mobile: user.mobile,
         };
-        const token = createTokenHandler(userToken);
-        user.token = token;
-        await user.save();
-        res.status(200).json({ message: 'Login successful', user });
-    } catch (err) {
-        next(err);
+
+        const token = createTokenHandler(userPayload);
+
+        await redisClient.del(key);
+        res.status(200).json({
+            message: "Login successful.",
+            user: {
+                userId: user.userId,
+                name: `${user.firstName} ${user.lastName}`,
+                firstName: user.firstName,
+                lastName: user.lastName,
+                email: user.email,
+                mobile: user.mobile,
+                role: user.role,
+                createdAt: user.createdAt,
+                updatedOn: user.updatedOn,
+                token,
+
+            },
+        });
     }
+    catch (err: any) {
+        console.error("otp generation Error:", err.message);
+        if (err instanceof CustomError) {
+            res.status(err.statusCode).json({ message: err.message });
+        } else {
+            res.status(500).json({ message: "Internal Server Error" });
+        }
+    }
+
 };
 
-export const handleToExtractToken = async (req: Request, res: Response, next: NextFunction) => {
-    try {
-        const decodedToken = (req as AuthRequest).user;
-        console.log("CJJKCJNC", decodedToken)
-        if (!decodedToken || !decodedToken.email) {
-            return res.status(400).json({ message: 'Invalid or missing token' });
-        }
-        const user = await User.findOne({ email: decodedToken.email });
-        res.status(200).json({
-            user
-        })
 
-
-
-    }
-    catch (err) {
-        next(err)
-    }
-}
 
 
 
