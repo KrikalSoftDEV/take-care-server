@@ -62,7 +62,7 @@ export const handleToRegisterCareProviderUser = async (req: Request, res: Respon
             lastName: payload.lastName,
             email: payload.email.toLowerCase(),
             mobile: payload.mobile,
-            role: payload.role === "user" ? "user" : "careTaker",
+            role: payload.role === "careTaker" ? "careTaker" : "user",
             userId: generatedId,
             createdAt: new Date(),
             updatedOn: new Date(),
@@ -71,7 +71,7 @@ export const handleToRegisterCareProviderUser = async (req: Request, res: Respon
         await newUser.save();
 
         res.status(201).json({
-            message: "User registered successfully.",
+            message: "careTaker User registered successfully.",
             user: {
                 userId: newUser.userId,
                 name: `${newUser.firstName} ${newUser.lastName}`,
