@@ -12,7 +12,7 @@ export interface User extends Document {
     updatedOn?: Date;
     token: String;
     otp?: String;
-    userId?: String;
+    providerId?: String;
 }
 
 const userSchema = new Schema<User>({
@@ -37,10 +37,9 @@ const userSchema = new Schema<User>({
     },
     role: {
         type: String,
-        enum: ['user', 'careTaker', 'admin'],
-        default: 'user',
+        enum: ['dependent', 'provider', 'admin'],
     },
-    userId: {
+    providerId: {
         type: String,
     },
     token: {

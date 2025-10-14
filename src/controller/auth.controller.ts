@@ -16,7 +16,7 @@ type UserPayload = {
     email: string;
     name: string;
     role: string;
-    userId?: string;
+    providerId?: string;
     mobile?: string;
 };
 
@@ -62,8 +62,8 @@ export const handleToRegisterCareProviderUser = async (req: Request, res: Respon
             lastName: payload.lastName,
             email: payload.email.toLowerCase(),
             mobile: payload.mobile,
-            role: payload.role === "careTaker" ? "careTaker" : "user",
-            userId: generatedId,
+            role: payload.role === "provider" ? "provider" : "dependent",
+            providerId: generatedId,
             createdAt: new Date(),
             updatedOn: new Date(),
         });
@@ -73,7 +73,7 @@ export const handleToRegisterCareProviderUser = async (req: Request, res: Respon
         res.status(201).json({
             message: "careTaker User registered successfully.",
             user: {
-                userId: newUser.userId,
+                providerId: newUser.providerId,
                 name: `${newUser.firstName} ${newUser.lastName}`,
                 firstName: newUser.firstName,
                 lastName: newUser.lastName,
@@ -172,7 +172,7 @@ export const handleToLoginCareProviderUser = async (req: Request, res: Response,
             email: user.email,
             name: `${user.firstName} ${user.lastName}`,
             role: user.role,
-            userId: user.userId?.toString(),
+            providerId: user.providerId?.toString(),
             mobile: user.mobile,
         };
 
@@ -182,7 +182,7 @@ export const handleToLoginCareProviderUser = async (req: Request, res: Response,
         res.status(200).json({
             message: "Login successful.",
             user: {
-                userId: user.userId,
+                providerId: user.providerId,
                 name: `${user.firstName} ${user.lastName}`,
                 firstName: user.firstName,
                 lastName: user.lastName,
@@ -207,9 +207,99 @@ export const handleToLoginCareProviderUser = async (req: Request, res: Response,
 
 };
 
+export const handleToGetProviderProfile = async (req: AuthRequest, res: Response, next: NextFunction) => {
+    try {
+        const decoded = req.user;
+        if (!decoded || !decoded.providerId || decoded.role !== 'provider') {
+            throw new CustomError(401, "Unauthorized. Invalid token.");
+        }
+        let matchQuery: { [key: string]: any } = {
+            providerId: decoded.providerId
+        };
+        let query = req.query;
+        if (query.mobile) {
+            matchQuery.mobile = query.mobile;
+        }
+        if (query.email) {
+            matchQuery.email = query.email;
+        }
+
+        const ProviderInfo = await User.findOne(matchQuery).lean();
+        if(!ProviderInfo){
+            throw new CustomError(404, "Provider not found.");
+        }
+        if(ProviderInfo){
+            res.status(200).json({
+                message: "Provider profile fetched successfully.",
+                data: ProviderInfo
+            });
+        }
+    }
+    catch (err: any) {
+        console.error("otp generation Error:", err.message);
+        if (err instanceof CustomError) {
+            res.status(err.statusCode).json({ message: err.message });
+        } else {
+            res.status(500).json({ message: "Internal Server Error" }); 
+        }
+    }
+
+};
 
 
+export const handleToUpdateProviderProfile = async (req: AuthRequest, res: Response, next: NextFunction) => {
+    try{
+        const decodedToken = req.user;
+        if (!decodedToken || !decodedToken.providerId || decodedToken.role !== 'provider') {
+            throw new CustomError(401, "Unauthorized. Invalid token.");
+        }
+        const payload = req.body;
+        if (!payload || Object.keys(payload).length === 0) {
+            throw new CustomError(400, "Request body cannot be empty.");
+        }
+        if(!payload.providerId){
+            throw new CustomError(400, "providerId is required to update the profile.");
+        }
 
+        const providerInfo= await User.findOne({ providerId: payload.providerId });
+        if(!providerInfo){
+            throw new CustomError(404, "Provider not found.");
+        }
 
+        const updateProviderProfile= await User.findOneAndUpdate(
+            { providerId: payload.providerId },
+            {
+                $set: {
+                    firstName: payload.firstName || providerInfo.firstName,
+                    lastName: payload.lastName || providerInfo.lastName,
+                    email: payload.email || providerInfo.email,
+                    mobile: payload.mobile || providerInfo.mobile,
+                    updatedOn: new Date(),
+                }
+            },
+            { new: true }
+        );
+
+        if(updateProviderProfile){
+            res.status(200).json({
+                message: "Provider profile updated successfully.",
+                data: updateProviderProfile
+            });
+        }
+        else{
+            throw new CustomError(500, "Failed to update provider profile. Please try again.");
+        }
+
+    }
+    catch (err: any) {
+        console.error("otp generation Error:", err.message);
+        if (err instanceof CustomError) {
+            res.status(err.statusCode).json({ message: err.message });
+        } else {
+            res.status(500).json({ message: "Internal Server Error" });
+        }
+    }
+
+}
 
 

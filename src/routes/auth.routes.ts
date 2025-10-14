@@ -4,7 +4,9 @@ import * as authController from '../controller/auth.controller';
 import {
   registerSchema,
   generateOtpForVerifyMobileSchema,
-  loginSchema
+  loginSchema,
+  findProviderProfile,
+  updateProviderProfile
 } from '../validations/auth.validation';
 import { verifyTokenHandler } from '../services/verifyToken.service';
 
@@ -51,6 +53,38 @@ router.post(
     }
   },
   authController.handleToLoginCareProviderUser
+);  
+
+// route for get care provider profile
+router.get(
+  '/get-care-provider-profile',
+  verifyTokenHandler,
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      await findProviderProfile.validateAsync(req.query);
+      next();
+    } catch (err: any) {
+      return res.status(400).json({
+        error: err.details ? err.details[0].message : err.message,
+      });
+    }
+  },
+  authController.handleToGetProviderProfile
+);
+
+// route for update provider profile
+router.patch('/update-provider-profile',
+  verifyTokenHandler,
+  async(req: Request, res: Response, next: NextFunction) => {
+  try{
+    await updateProviderProfile.validateAsync(req.body);
+    next();
+  }catch(err:any){
+    return res.status(400).json({
+      error: err.details ? err.details[0].message : err.message,
+    });
+  }
+}, authController.handleToUpdateProviderProfile
 );
 
 export default router;

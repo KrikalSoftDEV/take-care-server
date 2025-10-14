@@ -1,14 +1,14 @@
 import { Request, Response, NextFunction } from 'express';
-import jwt from 'jsonwebtoken';
-import config from '../config'; // your config file with TOKEN_SECRET_KEY
-import redis from '../config/redis'; // if you need redis later
+import jwt, { JwtPayload } from 'jsonwebtoken';
+import config from '../config';
 
-interface DecodedToken {
-  id: string;
+interface DecodedToken extends JwtPayload {
+  id?: string;
   email?: string;
-  name?:String,
-  userId?:String,
-  mobile?:String,
+  name?: string;
+  providerId?: string;
+  mobile?: string;
+  role?: string;
 }
 
 export const verifyTokenHandler = async (
@@ -17,38 +17,33 @@ export const verifyTokenHandler = async (
   next: NextFunction
 ): Promise<void> => {
   try {
-    let authTokenHeader = req.headers.authorization || req.headers.Authorization;
+    const authHeader = req.headers.authorization;
 
-    if (!authTokenHeader) {
-      const error = new Error('Unauthorized, Token Required!') as any;
-      error.statusCode = 401;
-      return next(error);
+    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+      res.status(401).json({ message: 'Unauthorized, Token Required!' });
+      return;
     }
 
-    if (Array.isArray(authTokenHeader)) {
-      authTokenHeader = authTokenHeader[0];
-    }
+    const token = authHeader.split(' ')[1];
+    const secret = (process.env.TOKEN_SECRET_KEY || config.jwtSecret)?.trim();
 
-    if (!authTokenHeader.startsWith('Bearer ')) {
-      const error = new Error("Token format is invalid. Must be 'Bearer [token]'") as any;
-      error.statusCode = 401;
-      return next(error);
-    }
-
-    const token = authTokenHeader.split(' ')[1];
-
-    jwt.verify(token, process.env.TOKEN_SECRET_KEY || config.TOKEN_SECRET_KEY, (err, decoded) => {
+    jwt.verify(token, secret, (err, decoded) => {
       if (err) {
-        const error = new Error('Failed to authenticate token, Invalid token') as any;
-        error.statusCode = 401;
-        return next(error);
+        console.error('JWT Verify Error:', err.name, err.message);
+        return res.status(401).json({
+          message:
+            err.name === 'TokenExpiredError'
+              ? 'Token expired, please login again.'
+              : 'Failed to authenticate token, Invalid token',
+        });
       }
 
       req.user = decoded as DecodedToken;
-      return next();
+      next();
     });
-
-  } catch (err) {
-    next(err);
+  } catch (error) {
+    console.error('Token Verification Error:', error);
+    res.status(500).json({ message: 'Internal Server Error' });
+    return;
   }
 };

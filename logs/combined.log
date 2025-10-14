@@ -951,3 +951,511 @@
 2025-10-10T09:54:42.261Z [info]: ✅ Server running on PORT: 4000
 2025-10-10T09:54:43.614Z [info]: MongoDB connected
 2025-10-10T09:54:43.622Z [info]: ✅ Server running on PORT: 4000
+2025-10-10T10:01:02.034Z [info]: MongoDB connected
+2025-10-10T10:01:02.044Z [info]: ✅ Server running on PORT: 4000
+2025-10-13T10:37:47.639Z [info]: MongoDB connected
+2025-10-13T10:37:47.648Z [info]: ✅ Server running on PORT: 4000
+2025-10-13T12:28:14.204Z [info]: MongoDB connected
+2025-10-13T12:28:14.208Z [info]: ✅ Server running on PORT: 4000
+2025-10-13T12:43:36.309Z [info]: MongoDB connected
+2025-10-13T12:43:36.319Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:07:01.837Z [info]: MongoDB connected
+2025-10-14T06:07:01.846Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:07:21.591Z [info]: MongoDB connected
+2025-10-14T06:07:21.595Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:08:50.066Z [info]: MongoDB connected
+2025-10-14T06:08:50.070Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:10:22.264Z [info]: MongoDB connected
+2025-10-14T06:10:22.273Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:11:03.367Z [info]: MongoDB connected
+2025-10-14T06:11:03.376Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:11:05.854Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:11:35.227Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:60:12)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:295:15
+    at processParams (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:582:12)
+2025-10-14T06:12:11.768Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:12:36.420Z [info]: MongoDB connected
+2025-10-14T06:12:36.425Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:12:38.311Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:12:44.896Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:13:05.745Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:15:07.354Z [info]: MongoDB connected
+2025-10-14T06:15:07.360Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:16:06.991Z [info]: MongoDB connected
+2025-10-14T06:16:07.000Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:16:10.879Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:16:24.949Z [info]: MongoDB connected
+2025-10-14T06:16:24.957Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:16:26.861Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:16:50.198Z [info]: MongoDB connected
+2025-10-14T06:16:50.204Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:17:01.738Z [info]: MongoDB connected
+2025-10-14T06:17:01.743Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:17:05.481Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:18:39.693Z [info]: MongoDB connected
+2025-10-14T06:18:39.707Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:18:44.695Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:19:08.810Z [info]: MongoDB connected
+2025-10-14T06:19:08.817Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:19:10.218Z [info]: MongoDB connected
+2025-10-14T06:19:10.225Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:19:12.542Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:21:28.009Z [info]: MongoDB connected
+2025-10-14T06:21:28.026Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:21:29.164Z [info]: MongoDB connected
+2025-10-14T06:21:29.178Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:26:24.740Z [info]: MongoDB connected
+2025-10-14T06:26:24.749Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:26:26.385Z [info]: MongoDB connected
+2025-10-14T06:26:26.395Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:26:47.557Z [info]: MongoDB connected
+2025-10-14T06:26:47.566Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:26:49.203Z [info]: MongoDB connected
+2025-10-14T06:26:49.216Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:27:01.112Z [info]: MongoDB connected
+2025-10-14T06:27:01.119Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:27:02.180Z [info]: MongoDB connected
+2025-10-14T06:27:02.186Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:27:07.567Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:45:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:43:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:30:39.938Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:45:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:43:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:30:47.494Z [info]: MongoDB connected
+2025-10-14T06:30:47.499Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:30:48.930Z [info]: MongoDB connected
+2025-10-14T06:30:48.940Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:31:16.470Z [info]: MongoDB connected
+2025-10-14T06:31:16.475Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:31:20.043Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:45:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:43:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:36:32.413Z [info]: MongoDB connected
+2025-10-14T06:36:32.430Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:36:55.818Z [info]: MongoDB connected
+2025-10-14T06:36:55.827Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:36:56.135Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:45:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:43:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:37:48.120Z [info]: MongoDB connected
+2025-10-14T06:37:48.124Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:37:49.781Z [info]: MongoDB connected
+2025-10-14T06:37:49.786Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:37:52.109Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:37:59.623Z [info]: MongoDB connected
+2025-10-14T06:37:59.636Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:38:00.926Z [info]: MongoDB connected
+2025-10-14T06:38:00.931Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:38:01.120Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:42:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:38:23.392Z [info]: MongoDB connected
+2025-10-14T06:38:23.403Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:38:24.954Z [info]: MongoDB connected
+2025-10-14T06:38:24.970Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:38:29.001Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:45:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:40:06.428Z [info]: MongoDB connected
+2025-10-14T06:40:06.446Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:40:07.911Z [info]: MongoDB connected
+2025-10-14T06:40:07.924Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:40:17.039Z [info]: MongoDB connected
+2025-10-14T06:40:17.057Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:40:18.200Z [info]: MongoDB connected
+2025-10-14T06:40:18.205Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:40:19.361Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:45:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:46:21.641Z [info]: MongoDB connected
+2025-10-14T06:46:21.645Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:46:23.568Z [error]: Error: Failed to authenticate token, Invalid token
+    at /home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:45:23
+    at /home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:171:14
+    at getSecret (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/pankaj/Krikal projects/take-care-server/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyTokenHandler (/home/pankaj/Krikal projects/take-care-server/src/services/verifyToken.service.ts:40:9)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+    at next (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/route.js:117:3)
+    at handle (/home/pankaj/Krikal projects/take-care-server/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/pankaj/Krikal projects/take-care-server/node_modules/router/lib/layer.js:152:17)
+2025-10-14T06:51:01.195Z [info]: MongoDB connected
+2025-10-14T06:51:01.202Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:51:01.953Z [info]: MongoDB connected
+2025-10-14T06:51:01.978Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:51:21.005Z [info]: MongoDB connected
+2025-10-14T06:51:21.012Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:51:22.280Z [info]: MongoDB connected
+2025-10-14T06:51:22.286Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:52:23.607Z [info]: MongoDB connected
+2025-10-14T06:52:23.613Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:52:25.026Z [info]: MongoDB connected
+2025-10-14T06:52:25.032Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:52:57.821Z [info]: MongoDB connected
+2025-10-14T06:52:57.836Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:52:59.143Z [info]: MongoDB connected
+2025-10-14T06:52:59.150Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:56:09.297Z [info]: MongoDB connected
+2025-10-14T06:56:09.303Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:56:10.476Z [info]: MongoDB connected
+2025-10-14T06:56:10.481Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:56:35.609Z [info]: MongoDB connected
+2025-10-14T06:56:35.616Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T06:56:37.035Z [info]: MongoDB connected
+2025-10-14T06:56:37.044Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:01:30.445Z [info]: MongoDB connected
+2025-10-14T07:01:30.453Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:01:32.715Z [info]: MongoDB connected
+2025-10-14T07:01:32.727Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:27:53.073Z [info]: MongoDB connected
+2025-10-14T07:27:53.079Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:27:54.967Z [info]: MongoDB connected
+2025-10-14T07:27:54.981Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:27:56.126Z [info]: MongoDB connected
+2025-10-14T07:27:56.132Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:28:08.447Z [info]: MongoDB connected
+2025-10-14T07:28:08.451Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:28:09.788Z [info]: MongoDB connected
+2025-10-14T07:28:09.795Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:30:25.698Z [info]: MongoDB connected
+2025-10-14T07:30:25.706Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:30:27.613Z [info]: MongoDB connected
+2025-10-14T07:30:27.619Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:30:37.277Z [info]: MongoDB connected
+2025-10-14T07:30:37.287Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:30:38.464Z [info]: MongoDB connected
+2025-10-14T07:30:38.474Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:31:23.918Z [info]: MongoDB connected
+2025-10-14T07:31:23.924Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:31:25.284Z [info]: MongoDB connected
+2025-10-14T07:31:25.295Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:32:12.581Z [info]: MongoDB connected
+2025-10-14T07:32:12.589Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:32:14.167Z [info]: MongoDB connected
+2025-10-14T07:32:14.176Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:38:17.125Z [info]: MongoDB connected
+2025-10-14T07:38:17.131Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:38:28.725Z [info]: MongoDB connected
+2025-10-14T07:38:28.737Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:38:30.379Z [info]: MongoDB connected
+2025-10-14T07:38:30.388Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:41:04.659Z [info]: MongoDB connected
+2025-10-14T07:41:04.667Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:41:06.241Z [info]: MongoDB connected
+2025-10-14T07:41:06.255Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:42:09.834Z [info]: MongoDB connected
+2025-10-14T07:42:09.846Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:42:11.919Z [info]: MongoDB connected
+2025-10-14T07:42:11.926Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:47:04.813Z [info]: MongoDB connected
+2025-10-14T07:47:04.822Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:47:05.703Z [info]: MongoDB connected
+2025-10-14T07:47:05.714Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:47:23.890Z [info]: MongoDB connected
+2025-10-14T07:47:23.904Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:47:26.231Z [info]: MongoDB connected
+2025-10-14T07:47:26.241Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:47:39.508Z [info]: MongoDB connected
+2025-10-14T07:47:39.516Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:47:40.682Z [info]: MongoDB connected
+2025-10-14T07:47:40.693Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:47:51.203Z [info]: MongoDB connected
+2025-10-14T07:47:51.240Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:47:53.542Z [info]: MongoDB connected
+2025-10-14T07:47:53.556Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:49:04.176Z [info]: MongoDB connected
+2025-10-14T07:49:04.182Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:49:06.568Z [info]: MongoDB connected
+2025-10-14T07:49:06.576Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:51:45.300Z [info]: MongoDB connected
+2025-10-14T07:51:45.306Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:51:47.060Z [info]: MongoDB connected
+2025-10-14T07:51:47.069Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:52:33.213Z [info]: MongoDB connected
+2025-10-14T07:52:33.243Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:52:35.647Z [info]: MongoDB connected
+2025-10-14T07:52:35.663Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:54:18.321Z [info]: MongoDB connected
+2025-10-14T07:54:18.331Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:54:20.423Z [info]: MongoDB connected
+2025-10-14T07:54:20.437Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:55:54.594Z [info]: MongoDB connected
+2025-10-14T07:55:54.603Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:55:56.296Z [info]: MongoDB connected
+2025-10-14T07:55:56.305Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:57:44.279Z [info]: MongoDB connected
+2025-10-14T07:57:44.309Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:57:45.542Z [info]: MongoDB connected
+2025-10-14T07:57:45.547Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:58:33.456Z [info]: MongoDB connected
+2025-10-14T07:58:33.463Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:58:34.714Z [info]: MongoDB connected
+2025-10-14T07:58:34.726Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:58:39.804Z [info]: MongoDB connected
+2025-10-14T07:58:39.810Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:58:42.260Z [info]: MongoDB connected
+2025-10-14T07:58:42.272Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:59:07.972Z [info]: MongoDB connected
+2025-10-14T07:59:07.983Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T07:59:09.172Z [info]: MongoDB connected
+2025-10-14T07:59:09.178Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T08:01:42.668Z [info]: MongoDB connected
+2025-10-14T08:01:42.673Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T08:01:43.780Z [info]: MongoDB connected
+2025-10-14T08:01:43.786Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T08:02:34.008Z [info]: MongoDB connected
+2025-10-14T08:02:34.014Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T08:02:35.808Z [info]: MongoDB connected
+2025-10-14T08:02:35.816Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T08:03:27.949Z [info]: MongoDB connected
+2025-10-14T08:03:27.959Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T08:03:29.547Z [info]: MongoDB connected
+2025-10-14T08:03:29.564Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T08:59:39.843Z [info]: MongoDB connected
+2025-10-14T08:59:39.851Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T08:59:41.382Z [info]: MongoDB connected
+2025-10-14T08:59:41.393Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:11:05.493Z [info]: MongoDB connected
+2025-10-14T09:11:05.503Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:12:02.132Z [info]: MongoDB connected
+2025-10-14T09:12:02.139Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:13:28.444Z [info]: MongoDB connected
+2025-10-14T09:13:28.451Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:17:57.815Z [info]: MongoDB connected
+2025-10-14T09:17:57.821Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:17:59.660Z [info]: MongoDB connected
+2025-10-14T09:17:59.673Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:18:09.183Z [info]: MongoDB connected
+2025-10-14T09:18:09.189Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:18:11.253Z [info]: MongoDB connected
+2025-10-14T09:18:11.260Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:18:21.841Z [info]: MongoDB connected
+2025-10-14T09:18:21.847Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:18:24.067Z [info]: MongoDB connected
+2025-10-14T09:18:24.075Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:18:50.234Z [info]: MongoDB connected
+2025-10-14T09:18:50.242Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:18:51.655Z [info]: MongoDB connected
+2025-10-14T09:18:51.667Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:19:32.565Z [info]: MongoDB connected
+2025-10-14T09:19:32.573Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:19:34.656Z [info]: MongoDB connected
+2025-10-14T09:19:34.669Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:30:03.095Z [info]: MongoDB connected
+2025-10-14T09:30:03.101Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:30:10.375Z [info]: MongoDB connected
+2025-10-14T09:30:10.381Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:30:28.236Z [info]: MongoDB connected
+2025-10-14T09:30:28.245Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:31:02.391Z [info]: MongoDB connected
+2025-10-14T09:31:02.395Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:31:03.887Z [info]: MongoDB connected
+2025-10-14T09:31:03.895Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:32:01.043Z [info]: MongoDB connected
+2025-10-14T09:32:01.047Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:32:02.479Z [info]: MongoDB connected
+2025-10-14T09:32:02.485Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:32:39.803Z [info]: MongoDB connected
+2025-10-14T09:32:39.809Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:32:41.332Z [info]: MongoDB connected
+2025-10-14T09:32:41.337Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:34:04.289Z [info]: MongoDB connected
+2025-10-14T09:34:04.306Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:34:05.900Z [info]: MongoDB connected
+2025-10-14T09:34:05.905Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:34:50.439Z [info]: MongoDB connected
+2025-10-14T09:34:50.446Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:35:29.233Z [info]: MongoDB connected
+2025-10-14T09:35:29.241Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:38:54.823Z [info]: MongoDB connected
+2025-10-14T09:38:54.830Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:43:47.846Z [info]: MongoDB connected
+2025-10-14T09:43:47.853Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:48:33.288Z [info]: MongoDB connected
+2025-10-14T09:48:33.298Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:49:28.087Z [info]: MongoDB connected
+2025-10-14T09:49:28.093Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:49:35.774Z [info]: MongoDB connected
+2025-10-14T09:49:35.781Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:49:40.343Z [info]: MongoDB connected
+2025-10-14T09:49:40.349Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:50:20.745Z [info]: MongoDB connected
+2025-10-14T09:50:20.750Z [info]: ✅ Server running on PORT: 4000
+2025-10-14T09:51:59.967Z [info]: MongoDB connected
+2025-10-14T09:51:59.973Z [info]: ✅ Server running on PORT: 4000

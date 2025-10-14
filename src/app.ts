@@ -104,7 +104,7 @@ app.get('/api/health', (_req: Request, res: Response) =>
 );
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
-app.use('/api', routes);
+app.use('/v1/api', routes);
 
 app.use((req: Request, res: Response) => {
   const notFoundMessage = `Route not found: ${req.method} ${req.originalUrl}`;

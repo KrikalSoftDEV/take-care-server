@@ -2,23 +2,22 @@ import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 import config from '../config';
 
+
 export interface AuthRequest extends Request {
   user?: {
     _id?: string;
-    id?: string;      
+    id?: string;
     email?: string;
     name?: string;
     role?: string;
-    userId?: string;
+    providerId?: string;
     mobile?: string;
   };
 }
 
-
 export const createTokenHandler = (user: AuthRequest['user']): string => {
-  return jwt.sign(user!, process.env.TOKEN_SECRET_KEY || config.jwtSecret, {
-    expiresIn: '1d',
-  });
+  const secret = (process.env.TOKEN_SECRET_KEY || config.jwtSecret)?.trim();
+  return jwt.sign(user!, secret, { expiresIn: '1d' });
 };
 
 export const auth = (req: AuthRequest, res: Response, next: NextFunction) => {
