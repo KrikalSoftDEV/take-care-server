@@ -44,3 +44,8 @@ export const updateDependentUser = Joi.object({
 export const deleteDependentUser = Joi.object({
   dependentId: Joi.string().required()
 });
+
+
+export const getDependentUser = Joi.object({
+  providerId: Joi.string().required()
+});

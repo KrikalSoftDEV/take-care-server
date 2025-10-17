@@ -17,7 +17,7 @@ import CustomError from '../utils/index'
 export const handleToAddTheDependentUserByProvider = async (req: AuthRequest, res: Response, next: NextFunction) => {
     try {
         const DecodedToken = req.user;
-        if (!DecodedToken || !DecodedToken.providerId || DecodedToken.role!="provider") {
+        if (!DecodedToken || !DecodedToken.providerId || DecodedToken.role != "provider") {
             return res.status(401).json({ message: 'Unauthorized: Invalid token data' });
         }
         const careProviderInfo = await User.findOne({ providerId: DecodedToken.providerId, role: DecodedToken.role });
@@ -86,6 +86,68 @@ export const handleToAddTheDependentUserByProvider = async (req: AuthRequest, re
 
 }
 
+export const handleToGetDependentUserByProvider = async (req: AuthRequest, res: Response, next: NextFunction) => {
+    try {
+
+        const decodedToken = req.user;
+        if (!decodedToken || !decodedToken.providerId || decodedToken.role !== "provider") {
+            throw new CustomError(401, "Unauthorized: Invalid token data");
+        }
+
+        const payload = req.query;
+        const matchQuery: any = { providerId: decodedToken.providerId };
+
+        const ProviderInfo = await Dependent.findOne({ providerId: decodedToken.providerId });
+
+        if (payload.dependentId) {
+            matchQuery.dependentId = payload.dependentId;
+        }
+        if (payload.firstName) {
+            matchQuery.firstName = { $regex: new RegExp(payload.firstName as string, 'i') };
+        }
+        if (payload.lastName) {
+            matchQuery.lastName = { $regex: new RegExp(payload.lastName as string, 'i') };
+        }
+        if (payload.email) {
+            matchQuery.email = payload.email;
+        }
+        if (payload.mobile) {
+            matchQuery.mobile = payload.mobile;
+        }
+        const dependentUsers = await Dependent.find(matchQuery);
+
+        const countDependentUsers = await Dependent.countDocuments(matchQuery);
+
+        if (!ProviderInfo) {
+            throw new CustomError(404, "Care provider not found.");
+        }
+
+        if (dependentUsers.length === 0) {
+            res.status(404).json({
+                message: "No dependent users found",
+                dependentUsers: [],
+                totalDependents: 0
+            });
+            return;
+        }
+
+        res.status(200).json({
+            message: "Dependent users retrieved successfully",
+            dependentUsers: dependentUsers,
+            totalDependents: countDependentUsers
+        });
+
+    } catch (err: any) {
+        console.error("add dependent user Error:", err.message);
+        if (err instanceof CustomError) {
+            res.status(err.statusCode).json({ message: err.message });
+        } else {
+            res.status(500).json({ message: "Internal Server Error" });
+        }
+
+    };
+}
+
 export const handleToUpdateTheDependentUserByProvider = async (req: AuthRequest, res: Response, next: NextFunction) => {
     try {
         const decodedToken = req.user;
@@ -129,56 +191,56 @@ export const handleToUpdateTheDependentUserByProvider = async (req: AuthRequest,
 }
 
 export const handleToDeleteTheDependentUserByProvider = async (
-  req: AuthRequest,
-  res: Response,
-  next: NextFunction
+    req: AuthRequest,
+    res: Response,
+    next: NextFunction
 ) => {
-  try {
-    const decodedToken = req.user;
+    try {
+        const decodedToken = req.user;
 
-    if (!decodedToken || !decodedToken.providerId || !decodedToken.role) {
-      throw new CustomError(401, "Unauthorized: Invalid token data");
+        if (!decodedToken || !decodedToken.providerId || !decodedToken.role) {
+            throw new CustomError(401, "Unauthorized: Invalid token data");
+        }
+
+        const careProviderInfo = await User.findOne({
+            providerId: decodedToken.providerId,
+            role: decodedToken.role,
+        });
+
+        if (!careProviderInfo) {
+            throw new CustomError(404, "Care provider not found.");
+        }
+
+        const { dependentId } = req.params;
+
+        if (!dependentId) {
+            throw new CustomError(400, "DependentId is required in URL parameter.");
+        }
+
+        const dependentUserInfo = await Dependent.findOne({
+            dependentId,
+            providerId: careProviderInfo.providerId,
+        });
+
+        if (!dependentUserInfo) {
+            throw new CustomError(404, "Dependent user not found.");
+        }
+
+        await Dependent.findOneAndDelete({
+            dependentId,
+            providerId: careProviderInfo.providerId,
+        });
+
+        res.status(200).json({
+            message: "Dependent user deleted successfully.",
+            deletedDependentId: dependentId,
+        });
+    } catch (err: any) {
+        console.error("delete dependent user Error:", err.message);
+        if (err instanceof CustomError) {
+            res.status(err.statusCode).json({ message: err.message });
+        } else {
+            res.status(500).json({ message: "Internal Server Error" });
+        }
     }
-
-    const careProviderInfo = await User.findOne({
-      providerId: decodedToken.providerId,
-      role: decodedToken.role,
-    });
-
-    if (!careProviderInfo) {
-      throw new CustomError(404, "Care provider not found.");
-    }
-
-    const { dependentId } = req.params;
-
-    if (!dependentId) {
-      throw new CustomError(400, "DependentId is required in URL parameter.");
-    }
-
-    const dependentUserInfo = await Dependent.findOne({
-      dependentId,
-      providerId: careProviderInfo.providerId,
-    });
-
-    if (!dependentUserInfo) {
-      throw new CustomError(404, "Dependent user not found.");
-    }
-
-    await Dependent.findOneAndDelete({
-      dependentId,
-      providerId: careProviderInfo.providerId,
-    });
-
-    res.status(200).json({
-      message: "Dependent user deleted successfully.",
-      deletedDependentId: dependentId,
-    });
-  } catch (err: any) {
-    console.error("delete dependent user Error:", err.message);
-    if (err instanceof CustomError) {
-      res.status(err.statusCode).json({ message: err.message });
-    } else {
-      res.status(500).json({ message: "Internal Server Error" });
-    }
-  }
 };

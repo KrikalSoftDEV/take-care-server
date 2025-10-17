@@ -6,7 +6,8 @@ import { verifyTokenHandler } from '../services/verifyToken.service';
 import {
     addDependentUser,
     updateDependentUser,
-    deleteDependentUser
+    deleteDependentUser,
+    getDependentUser
 
 } from '../validations/dependentUser.validation'
 
@@ -21,6 +22,20 @@ router.post('/add-dependent', async (req: Request, res: Response, next: NextFunc
         return res.status(400).json({ error: err.details ? err.details[0].message : err.message });
     }
 }, verifyTokenHandler, dependentController.handleToAddTheDependentUserByProvider);
+
+
+
+// get dependent user by care provider
+router.get('/get-dependent/By-provider', async (req: Request, res: Response, next: NextFunction) => {
+    try {
+        await getDependentUser.validateAsync(req.query);
+        next();
+    } catch (err: any) {
+        return res.status(400).json({ error: err.details ? err.details[0].message : err.message });
+    }
+},verifyTokenHandler, dependentController.handleToGetDependentUserByProvider);
+
+
 
 // update dependent user by care provider
 router.patch('/update-dependent', async (req: Request, res: Response, next: NextFunction) => {
