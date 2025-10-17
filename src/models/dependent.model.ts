@@ -20,6 +20,7 @@ export interface Dependent extends Document {
         pincode?: string;
     };
     providerName?: string;
+    profileImg?: string;
     providerMobileNo?: string;
     medicalCondition?: string;
     hospitalised?: boolean;
@@ -53,6 +54,12 @@ const dependedentSchema = new Schema({
     },
     gender: {
         type: String,
+    },
+      profileImg: {
+        type: String,
+        default: function () {
+            return `${process.env.BASE_URL || "http://localhost:4000/uploads/default-profile.png"}`;
+        }
     },
     address: {
         city: {

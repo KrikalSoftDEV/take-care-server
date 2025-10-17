@@ -11,7 +11,8 @@ export interface User extends Document {
     role: 'user' | 'admin';
     updatedOn?: Date;
     token: String;
-    otp?: String;
+    otp?: String;   
+    profileImg?: String;                                                
     providerId?: String;
 }
 
@@ -38,6 +39,12 @@ const userSchema = new Schema<User>({
     role: {
         type: String,
         enum: ['dependent', 'provider', 'admin'],
+    },
+     profileImg: {
+        type: String,
+        default: function () {
+            return `${process.env.BASE_URL || "http://localhost:4000/uploads/default-profile.png"}`;
+        }
     },
     providerId: {
         type: String,
